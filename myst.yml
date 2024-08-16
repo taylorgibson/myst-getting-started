@@ -1,0 +1,44 @@
+version: 1
+extends:
+  - ../morganton2024.yml
+project:
+  doi: <this gets filled in later>
+  id: morganton-YEAR-AUTHOR_LAST_NAME
+  title: Your title here
+  description: A short description for the website tile
+  keywords:
+    - keyword 1
+    - keyword 2
+    - keyword 3
+  subject: SUBJECT
+  authors:
+    - name: AUTHOR_FULL_NAME
+      email: NCSSM_EMAIL_ADDRESS
+      corresponding: true
+      affiliation: ncssm
+      roles:
+        - Conceptualization
+        - Data curation
+        - Formal analysis
+        - Investigation
+        - Project Administration
+        - Software
+        - Validation
+        - Visualization
+        - writing
+        - editing
+  - name: AUTHOR_TWO_FULL_NAME
+    email: NCSSM_EMAIL_ADDRESS
+    affiliation: ncssm
+    roles:
+      - Software
+      - Supervision
+      - Validation
+      - Visualization
+      - Writing – Original Draft
+      - Writing – review & editing
+  biblio:
+    first_page: <this gets filled in later>
+    last_page: <this gets filled in later>
+  abbreviations:
+    NCSSM: North Carolina School of Science and Mathematics
