@@ -2,7 +2,6 @@
 title: your title here
 abstract: |
   Your abstract can go here
-
 ```
 
 ## Introduction
